@@ -37,4 +37,3 @@ The Use Case Diagram visualizes the interactions between the actors and the syst
 - **Extend (`<<extend>>`)**: Optional behavior (e.g., Cancel Booking extends Book Property).
 
 ## Diagram
-The diagram is available in the `use_case_diagram.xml` file for import into Draw.io.
