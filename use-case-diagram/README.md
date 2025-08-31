@@ -37,3 +37,4 @@ The Use Case Diagram visualizes the interactions between the actors and the syst
 - **Extend (`<<extend>>`)**: Optional behavior (e.g., Cancel Booking extends Book Property).
 
 ## Diagram
+<img width="1536" height="1024" alt="ChatGPT Image Aug 31, 2025, 06_06_02 PM" src="https://github.com/user-attachments/assets/190783e3-8f8c-4b87-bd55-0f96a88e205a" />
