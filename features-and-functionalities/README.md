@@ -2,31 +2,49 @@
 <img width="1536" height="1024" alt="ChatGPT Image Aug 31, 2025, 04_39_54 PM" src="https://github.com/user-attachments/assets/c17fb260-8f8b-41d1-a6d3-4f83b39b918a" />
 
 
-# Airbnb Clone Project Documentation
+# Airbnb Clone Backend Features & Functionalities
 
-This repository contains documentation for the **backend features and functionalities** of the Airbnb Clone project.
+This document lists the key features supported by the Airbnb Clone backend:
 
-## Features and Functionalities
+## 1. User Authentication
+- Sign Up / Login / Logout
+- Password Recovery
+- Profile Management
+- Role Management (Guest, Host, Admin)
 
-The backend supports the following key modules:
+## 2. Property Management
+- CRUD Operations
+- Property Details
+- Categories
+- Admin Approval
 
-- **User Authentication**: Sign Up, Login, Logout, Password Recovery, User Roles (Guest, Host, Admin)
-- **User Profile Management**: View/Edit Profile, Account Preferences, Optional Verification
-- **Property Management**: CRUD operations for properties, property status, search & filter
-- **Booking System**: Book properties, availability check, booking history, cancellation
-- **Payment System**: Secure payments, refunds, payment history
-- **Reviews & Ratings**: Leave and view reviews, aggregate property ratings
-- **Admin Panel**: Manage users, properties, bookings, moderate reviews, generate reports
+## 3. Booking System
+- Search & Filter
+- Booking Creation
+- Status Tracking
+- Booking History
 
-## Backend Features Diagram
+## 4. Payments
+- Payment Gateway Integration
+- Transaction History
+- Refunds & Cancellations
+- Host Payouts
 
-![Airbnb Backend Features](features-and-functionalities/backend-features.png)
+## 5. Reviews & Ratings
+- Property Reviews
+- Star Ratings
+- Admin Moderation
 
-> The diagram above illustrates the main backend modules and how they interact.  
+## 6. Notifications
+- Email & Push Notifications
+- Admin Alerts
 
----
+## 7. Admin Dashboard
+- User & Property Management
+- Booking Analytics
+- Reports & Logs
 
-### File Location
-
-- **Editable Diagram**: `features-and-functionalities/airbnb-backend-features.drawio`
-- **Exported PNG**: `features-and-functionalities/backend-features.png`
+## 8. Security
+- JWT / Sessions
+- Input Validation
+- Data Encryption
