@@ -1,19 +1,40 @@
-Left Side (Actors)                Center (Use Cases)                  Right Side (Actors/External Systems)
-----------------------------------------------------------------------------------------------------
-Guest                             Airbnb Clone Backend                Payment Gateway
-- Register/Login                  - Register/Login/Logout            - Process Payment
-- Search Properties               - Search Properties                - Refund Payment
-- Book Property                    - Book Property
-- Make Payment                     - Make Payment
-- Leave Review                     - Leave Review
-Host                               - Add/Update/Delete Property
-- Add Property                      - Approve Booking Requests
-- Approve Bookings                  - Receive Payouts
-- Receive Payouts
-Admin                              - Manage Users
-- Manage Users                      - Manage Properties
-- Manage Properties                 - Manage Bookings
-- Manage Bookings                   - Moderate Reviews
-- Moderate Reviews                  - Generate Reports
-- Generate Reports
+# Airbnb Clone Use Case Diagram
 
+## Objective
+The Use Case Diagram visualizes the interactions between the actors and the system for key functionalities in the Airbnb Clone project. It highlights how users, hosts, admins, and external systems interact with the platform.
+
+## Actors
+- **Guest/User**: Browses properties, registers, books, makes payments, writes reviews, and cancels bookings.
+- **Host**: Lists and manages properties, views bookings, and accepts or rejects booking requests.
+- **Admin**: Manages users, properties, and bookings.
+- **Payment Gateway**: External system responsible for processing payments.
+
+## Use Cases
+### Guest/User
+- Register / Login
+- Search Properties
+- View Property Details
+- Book Property (includes Make Payment)
+- Cancel Booking (extends Book Property)
+- Write Review (extends Book Property)
+
+### Host
+- Register / Login
+- List Property
+- Update Property Details
+- View Bookings
+- Accept / Reject Booking
+
+### Admin
+- Manage Users, Properties, and Bookings
+
+### Payment Gateway
+- Process Payment
+
+## Relationships
+- **Association**: Direct interaction between actor and use case.
+- **Include (`<<include>>`)**: Mandatory use of one use case by another (e.g., Book Property includes Make Payment).
+- **Extend (`<<extend>>`)**: Optional behavior (e.g., Cancel Booking extends Book Property).
+
+## Diagram
+The diagram is available in the `use_case_diagram.xml` file for import into Draw.io.
