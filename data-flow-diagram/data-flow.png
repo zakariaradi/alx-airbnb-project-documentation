@@ -3,5 +3,5 @@
 This diagram illustrates the flow of data within the Airbnb Clone backend system. It covers core processes such as **User Management, Property Management, Booking Management, Payment Processing, and Notification Service**, showing interactions with **Users, Property Owners, and Payment Gateway**, along with data stores for **Users, Properties, Bookings, and Payments**. The DFD helps visualize system operations and data movement for better understanding and documentation.
 
 
-<img width="952" height="512" alt="DataflowDiagram drawio" src="https://github.com/user-attachments/assets/75350348-f80d-4779-b07e-d74a888cf467" /> 
+
 
